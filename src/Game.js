@@ -114,10 +114,10 @@ shape(){
     const { x, y } = this.props;
     // let shapeVariable = `borderBottomLeftRadius`;
     let shapeValue = `${0.5*CELL_SIZE}`
-    let randomBolean1 = Math.floor(Math.random()*2) * shapeValue + "px"
-    let randomBolean2 = Math.floor(Math.random()*2) * shapeValue + "px"
-    let randomBolean3 = Math.floor(Math.random()*2) * shapeValue + "px"
-    let randomBolean4 = Math.floor(Math.random()*2) * shapeValue + "px"
+    // let randomBolean1 = Math.floor(Math.random()*2) * shapeValue + "px"
+    // let randomBolean2 = Math.floor(Math.random()*2) * shapeValue + "px"
+    // let randomBolean3 = Math.floor(Math.random()*2) * shapeValue + "px"
+    // let randomBolean4 = Math.floor(Math.random()*2) * shapeValue + "px"
     let style= {
     background:this.color(),
     left: `${CELL_SIZE * x + 1}px`,
